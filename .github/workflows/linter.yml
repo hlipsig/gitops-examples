@@ -40,7 +40,7 @@ jobs:
 
       - name: Scan yamls
         id: kube-lint-scan
-        uses: stackrox/kube-linter-action@v2
+        uses: stackrox/kube-linter-action@v1
         with:
           directory: app-of-apps
           #config: .kube-linter/config.yaml
